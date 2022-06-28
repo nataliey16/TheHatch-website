@@ -21,7 +21,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #acc6aa;
+  color: #e3dfc8;
 }
 .secondary-header {
   background: #4b9b7a;
@@ -34,4 +34,7 @@ a {
 .logo {
   display: block;
   margin: 0 auto;
+}
+.about-section {
+  padding: 50px;
 }
