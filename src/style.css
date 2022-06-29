@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
   background-color: white;
   overflow-x: hidden;
 }
@@ -46,10 +46,16 @@ a {
   display: block;
   margin: 0 auto;
 }
-.mission-section {
-  padding: 50px;
-  font-family: Cabin, Helvetica, Arial, sans-serif;
+
+.sub-sections {
+  padding: 30px;
 }
+
 .mission-team-photo {
   border-radius: 5px;
+}
+
+.sub-header {
+  text-align: center;
+  font-weight: bold;
 }
