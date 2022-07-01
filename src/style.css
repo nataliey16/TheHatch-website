@@ -47,7 +47,7 @@ a {
   margin: 0 auto;
 }
 
-.sub-sections {
+.mission-section {
   padding: 30px;
 }
 
@@ -57,21 +57,30 @@ a {
 
 .sub-header {
   text-align: center;
-  font-weight: bold;
   font-size: 35px;
 }
 
 .projects-section {
   background: #d9e9d8;
   border-radius: 8px;
-  padding: 10px;
-  width: 100%;
+  padding-top: 30px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .project-title {
   padding-top: 30px;
   padding-bottom: 10px;
-  font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+.project-text {
+  font-size: 23px;
+  justify-items: auto;
+}
+
+.RC-fridge-pantry-photo {
+  display: block;
+  margin: 0 auto;
 }
