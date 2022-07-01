@@ -51,19 +51,24 @@ a {
   padding: 30px;
 }
 
-.mission-team-photo {
-  border-radius: 5px;
+.sub-header-title {
+  font-size: 35px;
+  text-align: center;
 }
 
-.sub-header {
-  text-align: center;
-  font-size: 35px;
+.sub-section-title {
+  font-size: 20px;
+}
+
+.mission-title {
+  text-align: left;
 }
 
 .projects-section {
   background: #d9e9d8;
   border-radius: 8px;
   padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 150px;
   padding-left: 150px;
 }
@@ -71,16 +76,22 @@ a {
 .project-title {
   padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
-.project-text {
+.project-text,
+.mission-text {
   font-size: 23px;
-  justify-items: auto;
+}
+.location {
+  text-align: center;
 }
 
-.RC-fridge-pantry-photo {
+.RC-fridge-pantry-photo,
+.KK-pantry-photo {
   display: block;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
