@@ -19,7 +19,7 @@ header {
 
 .navbar-brand {
   color: #4b9b7a;
-  font-size: 40px;
+  font-size: 35px;
 }
 .navbar-brand:hover {
   color: #4b9b7a;
@@ -58,7 +58,7 @@ header {
 #mission-section,
 #projects-section,
 #team-section {
-  margin-top: 90px;
+  margin-top: 50px;
   padding: 30px;
 }
 
@@ -71,8 +71,12 @@ header {
   font-size: 20px;
 }
 
-.mission-title {
+.mission-title,
+.mission-text,
+.team-text,
+.team-title {
   text-align: left;
+  text-align: justify;
 }
 
 #projects-section {
@@ -92,8 +96,10 @@ header {
 }
 
 .project-text,
-.mission-text {
+.mission-text,
+.team-text {
   font-size: 23px;
+  text-align: justify;
 }
 .location {
   text-align: center;
