@@ -10,6 +10,13 @@ a {
   text-decoration: none;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  top: -5px;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
 .navbar-brand {
   color: #4b9b7a;
   font-size: 40px;
@@ -30,8 +37,9 @@ a {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, #c2e8ce 1px, transparent 1px),
     linear-gradient(to bottom, #c2e8ce 1px, transparent 1px);
+  margin-top: 120px;
   padding: 80px;
-  padding-top: 80px;
+  padding-top: 100px;
   text-align: center;
   color: #6a5c55;
   font-size: 30px;
@@ -47,8 +55,10 @@ a {
   margin: 0 auto;
 }
 
-.mission-section,
-.team-section {
+#mission-section,
+#projects-section,
+#team-section {
+  margin-top: 90px;
   padding: 30px;
 }
 
@@ -65,7 +75,7 @@ a {
   text-align: left;
 }
 
-.projects-section {
+#projects-section {
   background: #d9e9d8;
   border-radius: 8px;
   padding-top: 30px;
