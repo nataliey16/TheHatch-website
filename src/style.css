@@ -34,6 +34,7 @@ header {
 .nav-link:hover {
   color: #e3dfc8;
 }
+
 .secondary-header {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, #c2e8ce 1px, transparent 1px),
@@ -44,6 +45,10 @@ header {
   text-align: center;
   color: #6a5c55;
   font-size: 30px;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem;
 }
 
 .mutual-aid-title {

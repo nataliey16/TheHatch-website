@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,19 +36,19 @@
       <header>
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
+            <a class="navbar-brand" href="#secondary-header">the hatch</a>
             <button
               class="navbar-toggler"
               type="button"
-              data-bs-toggle="dropdown"
-              data-bs-target="#navbarTogglerDemo01"
-              aria-controls="navbarTogglerDemo01"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#secondary-header">the hatch</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link" href="#mission-section">Misson</a>
@@ -50,31 +57,25 @@
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
-                    id="navbarTogglerDemo01"
+                    id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    data-target="#my-target"
                   >
                     Projects
                   </a>
                   <ul
+                    id="my-target"
                     class="dropdown-menu"
-                    aria-labelledby="navbarTogglerDemo01"
+                    aria-labelledby="navbarDropdown"
                   >
+                    <li><a class="dropdown-item" href="#">Rosscarrock</a></li>
                     <li>
-                      <a class="dropdown-item" href="#rosscarrock"
-                        >Rosscarrock</a
-                      >
+                      <a class="dropdown-item" href="#">Kaffeeklatsch</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#kaffeeklatsch"
-                        >Kaffeeklatsch</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#good-neighbour"
-                        >Good Neighbour</a
-                      >
+                      <a class="dropdown-item" href="#">Good Neighbour</a>
                     </li>
                   </ul>
                 </li>
@@ -82,10 +83,12 @@
                   <a class="nav-link" href="#team-section">Team</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Donate</a>
+                  <a class="nav-link" href="#contact-section">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link donate-link" href="#donate-section"
+                    >Donate</a
+                  >
                 </li>
               </ul>
             </div>
@@ -100,10 +103,10 @@
             class="logo"
           />
           <div class="mutual-aid-title">
-            <strong> A MUTUAL AID GROUP </strong>
+            <strong>MUTUAL AID</strong>
           </div>
           <div class="description-header">
-            Collective action and community collaboration
+            Collective Action and Community Collaboration
           </div>
         </section>
       </div>
