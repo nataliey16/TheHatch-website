@@ -27,15 +27,12 @@
   <body>
     <div class="website-wrapper">
       <header>
-        <nav
-          class="navbar navbar-expand-lg"
-          style="background-color: rgba(0, 0, 0, 0.02)"
-        >
+        <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
+              data-bs-toggle="dropdown"
               data-bs-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01"
               aria-expanded="false"
@@ -49,8 +46,37 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#mission-section">Misson</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects-section">Projects</a>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarTogglerDemo01"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Projects
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarTogglerDemo01"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#rosscarrock"
+                        >Rosscarrock</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#kaffeeklatsch"
+                        >Kaffeeklatsch</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#good-neighbour"
+                        >Good Neighbour</a
+                      >
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#team-section">Team</a>
@@ -112,7 +138,7 @@
         <section id="projects-section">
           <div class="row">
             <div class="sub-header-title">Our Projects</div>
-            <div class="project-title">
+            <div class="project-title" id="rosscarrock">
               Rosscarrock Community Fridge & Pantry
             </div>
             <div class="location">
@@ -159,7 +185,9 @@
             />
             <p style="clear: both"></p>
 
-            <div class="project-title">Kaffeeklatsch Pantry</div>
+            <div class="project-title" id="kaffeeklatsch">
+              Kaffeeklatsch Pantry
+            </div>
             <div class="location">
               <i class="fa-solid fa-location-dot"></i>
               <a
@@ -203,7 +231,9 @@
               class="KK-pantry-photo"
             />
             <p style="clear: both"></p>
-            <div class="project-title">Good Neighbour Community Market</div>
+            <div class="project-title" id="good-neighbour">
+              Good Neighbour Community Market
+            </div>
             <div class="location">
               <i class="fa-solid fa-location-dot"></i>
               <a
