@@ -1,9 +1,7 @@
 body {
-  padding-top: 10px;
   font-family: "Raleway", sans-serif;
   background-color: white;
   overflow-x: hidden;
-  margin-bottom: 80px;
 }
 
 main {
@@ -19,7 +17,7 @@ a {
 header {
   position: fixed;
   width: 100%;
-  top: -5px;
+  top: -1px;
   background-color: rgba(0, 0, 0, 0.02);
 }
 
@@ -41,6 +39,7 @@ header {
 }
 
 .dropdown-item {
+  font-size: 20px;
   text-align: left;
   padding-left: 10px;
   padding-right: 50px;
@@ -69,7 +68,8 @@ header {
   --bs-gutter-x: 0rem;
 }
 
-.mutual-aid-title {
+.mutual-aid-title,
+.the-hatch-header {
   padding-top: 10px;
   padding-bottom: 12px;
 }
@@ -93,20 +93,24 @@ header {
 .sub-header-title {
   margin-top: 10px;
   margin-bottom: 10px;
-
   font-size: 35px;
+  font-weight: bolder;
   text-align: center;
 }
 
 .sub-section-title {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .mission-title,
-.mission-text,
+.mission-text {
+  text-align: center;
+  text-align: justify;
+}
+
 .team-text,
 .team-title {
-  text-align: left;
+  text-align: center;
   text-align: justify;
 }
 
@@ -119,10 +123,15 @@ header {
   padding-left: 150px;
 }
 
+.project-header {
+  background: whitesmoke;
+  border-radius: 10px;
+}
 .project-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
   font-size: 25px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -142,4 +151,14 @@ header {
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 10px;
+}
+
+.team-text-title {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer-section {
+  padding: 300px;
+  background: #7fa99b;
 }

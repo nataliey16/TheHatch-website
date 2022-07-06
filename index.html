@@ -33,7 +33,10 @@
   <body>
     <div class="website-wrapper">
       <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav
+          class="navbar navbar-expand-lg"
+          style="background: rgb(250, 250, 250, 0.8)"
+        >
           <div class="container-fluid">
             <a class="navbar-brand" href="#secondary-header">the hatch</a>
             <button
@@ -104,10 +107,12 @@
       <div class="container-fluid">
         <section class="secondary-header" id="secondary-header">
           <img
-            src="src/images/The Hatch Finals_Circle only White Fill.png"
+            src="src/images/The Hatch Finals_White Fill w text.png"
             width="300px"
+            alt="the-hatch-logo"
             class="logo"
           />
+
           <div class="mutual-aid-title">
             <strong>MUTUAL AID</strong>
           </div>
@@ -119,8 +124,10 @@
       <main>
         <div class="container-fluid">
           <section id="mission-section">
+            <div class="break"></div>
+            <div class="break"></div>
             <div class="row">
-              <div class="col-6">
+              <div class="col-6 mission-text-title">
                 <div class="sub-header-title mission-title" id="mission-title">
                   Our Mission
                 </div>
@@ -129,9 +136,9 @@
                   collaboration through mutual aid projects in Mohkinstsis
                   (Calgary). A core value of mutual aid as a practice is making
                   sure that we help one another whenever and wherever we can, in
-                  the spirit of solidarity with one another. We believe that
-                  everyone should have free access to food and essential
-                  resources.
+                  the spirit of solidarity with one another. We believe everyone
+                  deserves access to basic needs and services in their
+                  community.
                 </div>
               </div>
               <div class="col-6">
@@ -149,7 +156,7 @@
         <div class="container-fluid">
           <section id="projects-section">
             <div class="row">
-              <div class="sub-header-title" id="projects-title">
+              <div class="sub-header-title project-header" id="project-header">
                 Our Projects
               </div>
               <div class="project-title" id="rosscarrock">
@@ -292,34 +299,32 @@
             </div>
           </section>
           <div class="container-fluid">
-            <section id="team-section">
+            <section class="team-section" id="team-section">
               <div class="row">
                 <div class="col-6">
-                  <div class="sub-header-title team-title" id="team-title">
-                    Our Team
-                  </div>
-                  <div class="team-text">
-                    We are a community mutual aid group that creates spaces for
-                    sharing resources and services for all. We believe everyone
-                    deserves access to basic needs and services in their
-                    community.
-                  </div>
-                </div>
-                <div class="col-6">
                   <img
-                    src="src/images/team-photo.jpg"
+                    src="src/images/team-jumping-photo.jpg"
                     alt="mission-team-photo"
                     class="mission-team-photo"
                     width="600px"
                     height="400px"
                   />
                 </div>
+                <div class="col-6 team-text-title">
+                  <div class="sub-header-title team-title" id="team-title">
+                    Our Team
+                  </div>
+                  <div class="team-text">
+                    We are a community mutual aid group that creates spaces for
+                    sharing resources and services for all.
+                  </div>
+                </div>
               </div>
             </section>
-            <section class="footer-section"></section>
           </div>
         </div>
       </main>
+      <section class="footer-section"></section>
     </div>
   </body>
 </html>
