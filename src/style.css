@@ -123,9 +123,15 @@ header {
   padding-left: 150px;
 }
 
-.project-header {
-  background: whitesmoke;
-  border-radius: 10px;
+.project-header:before,
+.project-header:after {
+  content: "";
+  width: 180px;
+  height: 1px;
+  margin: 0 10px;
+  background: #ccc;
+  display: inline-block;
+  vertical-align: middle;
 }
 .project-title {
   padding-top: 20px;
