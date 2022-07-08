@@ -58,7 +58,7 @@ header {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-top: 120px;
-  padding-bottom: 108px;
+  padding-bottom: 50px;
   text-align: center;
   color: #6a5c55;
   font-size: 30px;
@@ -82,7 +82,7 @@ header {
 #mission-section,
 #projects-section,
 #team-section {
-  margin-top: 80px;
+  margin-top: 20px;
   padding: 30px;
 }
 
@@ -108,6 +108,7 @@ header {
 .team-title {
   text-align: center;
   text-align: justify;
+  padding-bottom: 30px;
 }
 
 #projects-section {
@@ -118,9 +119,12 @@ header {
   padding-right: 150px;
   padding-left: 150px;
 }
-
+.mission-header:before,
+.mission-header:after,
 .project-header:before,
-.project-header:after {
+.project-header:after,
+.team-header:before,
+.team-header:after {
   content: "";
   width: 180px;
   height: 1px;
@@ -138,10 +142,11 @@ header {
 }
 
 .project-text,
-.mission-text,
-.team-text {
+.mission-text {
   font-size: 23px;
   text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .location {
   text-align: center;
@@ -155,9 +160,34 @@ header {
   padding-bottom: 10px;
 }
 
-.team-text-title {
+.team-title,
+.team-text {
   border-radius: 10px;
+  font-size: 25px;
   text-align: center;
+}
+
+.team-photo {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 160px;
+  width: 150px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+  list-style: none;
 }
 
 .footer-section {
