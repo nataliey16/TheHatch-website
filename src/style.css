@@ -81,7 +81,7 @@ header {
 #mission-section,
 #projects-section,
 #team-section {
-  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 30px;
 }
 
@@ -117,6 +117,7 @@ header {
   padding-bottom: 30px;
   padding-right: 150px;
   padding-left: 150px;
+  margin-bottom: 50px;
 }
 .mission-header:before,
 .mission-header:after,
@@ -164,6 +165,17 @@ header {
   padding-bottom: 10px;
 }
 
+.team-border {
+  background: linear-gradient(
+    109.6deg,
+    rgb(223, 234, 247) 11.2%,
+    rgb(244, 248, 252) 91.1%
+  );
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 50px;
+}
 .team-photo {
   width: 50%;
   display: block;
@@ -187,7 +199,18 @@ ul {
   list-style: none;
 }
 
+.team-member-name,
+.pronouns {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 .footer-section {
+  margin-top: 40px;
   padding: 200px;
-  background: #7fa99b;
+  background-image: url("images/blob-background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #ffffff;
 }
