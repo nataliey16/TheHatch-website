@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  width: 1500px;
+  width: 1600px;
   margin: auto;
 }
 
@@ -174,10 +174,10 @@ header {
 
   border: 1px solid transparent;
   border-radius: 10px;
-  padding: 50px;
 }
 .team-photo {
-  width: 50%;
+  width: 45%;
+  padding-bottom: 40px;
   display: block;
   margin: 0 auto;
 }
