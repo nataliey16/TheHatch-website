@@ -95,8 +95,39 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact-section">Contact</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#donate-section">Donate</a>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    data-target="#my-target"
+                  >
+                    Donate
+                  </a>
+                  <ul
+                    id="my-target"
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#gofundme">gofundme</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#patreon">
+                        <i class="fa-brands fa-patreon"></i>
+                        Patreon</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#e-transfer">
+                        e-transfer</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -107,332 +138,336 @@
       <div class="container-fluid">
         <section class="secondary-header" id="secondary-header">
           <img
-            src="src/images/The Hatch Finals_Circle only White Fill.png"
+            src="src/images/The Hatch Finals_White Fill w text.png"
             width="300px"
             alt="the-hatch-logo"
             class="logo"
           />
 
-          <div class="mutual-aid-title">
-            <strong>MUTUAL AID</strong>
-          </div>
+          <div class="mutual-aid-title">MUTUAL AID</div>
           <div class="description-header">
             Collective Action | Community Collaboration | Solidarity
           </div>
         </section>
       </div>
-      <main>
-        <div class="container-fluid">
-          <section id="mission-section">
-            <div class="row mission-text-title">
-              <div class="col-6">
-                <div class="sub-header-title mission-header" id="mission-title">
-                  Our Mission
-                </div>
-                <div class="mission-text">
-                  Our mission is to promote collective action and community
-                  collaboration through mutual aid projects in Mohkinstsis
-                  (Calgary). A core value of mutual aid as a practice is making
-                  sure that we help one another whenever and wherever we can, in
-                  the spirit of solidarity with one another. We believe everyone
-                  deserves access to basic needs and services in their
-                  community.
-                </div>
+      <div class="container-fluid">
+        <section id="mission-section">
+          <div class="row mission-text-title">
+            <div class="col-6">
+              <div class="sub-header-title mission-header" id="mission-title">
+                Our Mission
               </div>
-              <div class="col-6">
+              <div class="mission-text">
+                Our mission is to promote collective action and community
+                collaboration through mutual aid projects in Mohkinstsis
+                (Calgary). A core value of mutual aid as a practice is making
+                sure that we help one another whenever and wherever we can, in
+                the spirit of solidarity with one another. We believe everyone
+                deserves access to basic needs and services in their community.
+              </div>
+            </div>
+            <div class="col-6">
+              <img
+                src="src/images/team-photo.jpg"
+                alt="mission-team-photo"
+                class="mission-team-photo"
+                width="600px"
+                height="400px"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container-fluid">
+        <section id="projects-section">
+          <div class="row">
+            <div class="sub-header-title project-header" id="project-header">
+              Our Projects
+            </div>
+            <div class="project-title" id="rosscarrock">
+              Rosscarrock Community Fridge & Pantry
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <a
+                href="https://www.rosscarrock.org/"
+                target="_blank"
+                class="RCFlocation"
+              >
+                Rosscarrock Community Hall, 4411 10 Ave SW
+              </a>
+            </div>
+            <div class="project-text">
+              The Rosscarrock Community Fridge is a community-powered project
+              where neighbours help neighbours, strangers, and any one looking
+              to access the fridge. As The Hatch, we are completely volunteer
+              run, with the goal of supporting community members and addressing
+              food insecurity in our neighbourhoods. Our fridge is a shared
+              space that provides 24/7, immediate access to food, as well as
+              essential items for all community members without judgment or
+              specific requirements. We rely solely on donations to stock and
+              maintain the community fridge.
+            </div>
+            <img
+              src="src/images/RC-fridge-pantry(1).jpeg"
+              style="width: 30%; margin-right: -1%; margin-bottom: 0.5em"
+              class="RC-fridge-pantry-photo"
+            />
+            <img
+              src="src/images/RC-fridge-inside.jpeg"
+              style="
+                width: 30%;
+                margin-right: -1%;
+                margin-left: 1%;
+                margin-bottom: 0.5em;
+              "
+              class="RC-fridge-pantry-photo"
+            />
+            <img
+              src="src/images/RC-pantry-inside.jpeg"
+              style="width: 30%; margin-left: 1%; margin-bottom: 0.5em"
+              class="RC-fridge-pantry-photo"
+            />
+            <p style="clear: both"></p>
+
+            <div class="project-title" id="kaffeeklatsch">
+              Kaffeeklatsch Pantry
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <a
+                href="https://www.kaffeeklatsch.ca/"
+                target="_blank"
+                class="KKpantryLocation"
+              >
+                Kaffeeklatsch, 1205 1 St SW
+              </a>
+            </div>
+            <div class="project-text">
+              Kaffeeklatsch Pantry, a small but mighty pantry in the Beltline
+              area grew out of a collaboration with Jessica, the wonderful owner
+              of Kaffeeklatsch, a cafe where coffee and conversation matter.
+              We're keeping the pantry stocked with non-perishable items for all
+              to take, and it's always open for donations of popular items like
+              granola bars, peanut butter, beef jerky, instant noodles, and
+              boxed or canned soup.
+            </div>
+            <img
+              src="src/images/KK-pantry-outside.jpeg"
+              alt="KK-pantry"
+              style="width: 30%; margin-right: -1%; margin-bottom: 0.5em"
+              class="KK-pantry-photo"
+            />
+            <img
+              src="src/images/KK-pantry-inside.jpeg"
+              alt="KK-pantry-photo"
+              class="KK-pantry-photo"
+              style="
+                width: 30%;
+                margin-right: -1%;
+                margin-left: 1%;
+                margin-bottom: 0.5em;
+              "
+            />
+            <img
+              src="src/images/KK-pantry-streetview.jpeg"
+              alt="KK-pantry"
+              style="width: 30%; margin-left: 1%; margin-bottom: 0.5em"
+              class="KK-pantry-photo"
+            />
+            <p style="clear: both"></p>
+            <div class="project-title" id="good-neighbour">
+              Good Neighbour Community Market
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <a
+                href="https://www.google.com/maps/dir/51.0868208,-114.1296003/goodneighbor+yyc/@51.0655874,-114.1329464,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x537165e03ee7ef0b:0x7b4b7f88c859a1ca!2m2!1d-114.0606235!2d51.0481946"
+                target="_blank"
+                class="GN-location"
+              >
+                Good Neigbour Community Market, 149 5 Ave SE
+              </a>
+            </div>
+            <div class="project-text">
+              <div class="project-text">
+                Good Neighbour Community Market is Calgary's first
+                Pay-What-You-Want Thrift store! This project blossomed out of
+                collaboration with calgary community groups including, Calgary
+                Community Fridge, Le Freak, The Hatch, and our mighty team of
+                volunteers!
+              </div>
+              <div class="GN-photos">
                 <img
-                  src="src/images/team-photo.jpg"
-                  alt="mission-team-photo"
-                  class="mission-team-photo"
-                  width="600px"
-                  height="400px"
+                  src="src/images/GN-outside.jpeg"
+                  alt="KK-pantry"
+                  style="width: 60%"
+                  class="KK-pantry-photo"
+                />
+                <img
+                  src="src/images/GN-inside.jpeg"
+                  alt="KK-pantry"
+                  style="width: 60%"
+                  class="KK-pantry-photo"
+                />
+                <img
+                  src="src/images/GN-team-white.jpeg"
+                  alt="KK-pantry"
+                  style="width: 60%"
+                  class="KK-pantry-photo"
                 />
               </div>
             </div>
-          </section>
-        </div>
-        <div class="container-fluid">
-          <section id="projects-section">
-            <div class="row">
-              <div class="sub-header-title project-header" id="project-header">
-                Our Projects
-              </div>
-              <div class="project-title" id="rosscarrock">
-                Rosscarrock Community Fridge & Pantry
-              </div>
-              <div class="location">
-                <i class="fa-solid fa-location-dot"></i>
-                <a
-                  href="https://www.rosscarrock.org/"
-                  target="_blank"
-                  class="RCFlocation"
-                >
-                  Rosscarrock Community Hall, 4411 10 Ave SW
-                </a>
-              </div>
-              <div class="project-text">
-                The Rosscarrock Community Fridge is a community-powered project
-                where neighbours help neighbours, strangers, and any one looking
-                to access the fridge. As The Hatch, we are completely volunteer
-                run, with the goal of supporting community members and
-                addressing food insecurity in our neighbourhoods. Our fridge is
-                a shared space that provides 24/7, immediate access to food, as
-                well as essential items for all community members without
-                judgment or specific requirements. We rely solely on donations
-                to stock and maintain the community fridge.
-              </div>
-              <img
-                src="src/images/RC-fridge-pantry(1).jpeg"
-                style="width: 30%; margin-right: -1%; margin-bottom: 0.5em"
-                class="RC-fridge-pantry-photo"
-              />
-              <img
-                src="src/images/RC-fridge-inside.jpeg"
-                style="
-                  width: 30%;
-                  margin-right: -1%;
-                  margin-left: 1%;
-                  margin-bottom: 0.5em;
-                "
-                class="RC-fridge-pantry-photo"
-              />
-              <img
-                src="src/images/RC-pantry-inside.jpeg"
-                style="width: 30%; margin-left: 1%; margin-bottom: 0.5em"
-                class="RC-fridge-pantry-photo"
-              />
-              <p style="clear: both"></p>
+            <p style="clear: both"></p>
+          </div>
+        </section>
 
-              <div class="project-title" id="kaffeeklatsch">
-                Kaffeeklatsch Pantry
+        <div class="container-fluid team-border">
+          <section class="team-section" id="team-section">
+            <div class="row">
+              <div class="sub-header-title team-header" id="team-header">
+                Meet Our Team
               </div>
-              <div class="location">
-                <i class="fa-solid fa-location-dot"></i>
-                <a
-                  href="https://www.kaffeeklatsch.ca/"
-                  target="_blank"
-                  class="KKpantryLocation"
-                >
-                  Kaffeeklatsch, 1205 1 St SW
-                </a>
+              <div class="team-text">
+                We are a community mutual aid group that creates spaces for
+                sharing resources and services for all.
               </div>
-              <div class="project-text">
-                Kaffeeklatsch Pantry, a small but mighty pantry in the Beltline
-                area grew out of a collaboration with Jessica, the wonderful
-                owner of Kaffeeklatsch, a cafe where coffee and conversation
-                matter. We're keeping the pantry stocked with non-perishable
-                items for all to take, and it's always open for donations of
-                popular items like granola bars, peanut butter, beef jerky,
-                instant noodles, and boxed or canned soup.
-              </div>
-              <img
-                src="src/images/KK-pantry-outside.jpeg"
-                alt="KK-pantry"
-                style="width: 30%; margin-right: -1%; margin-bottom: 0.5em"
-                class="KK-pantry-photo"
-              />
-              <img
-                src="src/images/KK-pantry-inside.jpeg"
-                alt="KK-pantry-photo"
-                class="KK-pantry-photo"
-                style="
-                  width: 30%;
-                  margin-right: -1%;
-                  margin-left: 1%;
-                  margin-bottom: 0.5em;
-                "
-              />
-              <img
-                src="src/images/KK-pantry-streetview.jpeg"
-                alt="KK-pantry"
-                style="width: 30%; margin-left: 1%; margin-bottom: 0.5em"
-                class="KK-pantry-photo"
-              />
-              <p style="clear: both"></p>
-              <div class="project-title" id="good-neighbour">
-                Good Neighbour Community Market
-              </div>
-              <div class="location">
-                <i class="fa-solid fa-location-dot"></i>
-                <a
-                  href="https://www.google.com/maps/dir/51.0868208,-114.1296003/goodneighbor+yyc/@51.0655874,-114.1329464,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x537165e03ee7ef0b:0x7b4b7f88c859a1ca!2m2!1d-114.0606235!2d51.0481946"
-                  target="_blank"
-                  class="GN-location"
-                >
-                  Good Neigbour Community Market, 149 5 Ave SE
-                </a>
-              </div>
-              <div class="project-text">
-                <div class="project-text">
-                  Good Neighbour Community Market is Calgary's first
-                  Pay-What-You-Want Thrift store! This project blossomed out of
-                  collaboration with calgary community groups including, Calgary
-                  Community Fridge, Le Freak, The Hatch, and our mighty team of
-                  volunteers!
-                </div>
-                <div class="GN-photos">
-                  <img
-                    src="src/images/GN-outside.jpeg"
-                    alt="KK-pantry"
-                    style="width: 60%"
-                    class="KK-pantry-photo"
-                  />
-                  <img
-                    src="src/images/GN-inside.jpeg"
-                    alt="KK-pantry"
-                    style="width: 60%"
-                    class="KK-pantry-photo"
-                  />
-                  <img
-                    src="src/images/GN-team-white.jpeg"
-                    alt="KK-pantry"
-                    style="width: 60%"
-                    class="KK-pantry-photo"
-                  />
-                </div>
-              </div>
-              <p style="clear: both"></p>
             </div>
           </section>
 
-          <div class="container-fluid team-border">
-            <section class="team-section" id="team-section">
-              <div class="row">
-                <div class="sub-header-title team-header" id="team-header">
-                  Meet Our Team
-                </div>
-                <div class="team-text">
-                  We are a community mutual aid group that creates spaces for
-                  sharing resources and services for all.
-                </div>
+          <section class="team-members-section">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/gabrie-headshot.png"
+                  alt="gabrie-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Gabriella Wong Ken</li>
+                  <li class="pronouns">She/Her</li>
+                  <li>
+                    <p class="card-text">
+                      Community to me is about building connections, supporting
+                      those around you, and caring for one another so that we
+                      can all thrive.
+                    </p>
+                  </li>
+                </ul>
+                <div class="team-text"></div>
               </div>
-            </section>
-
-            <section class="team-members-section">
-              <div class="row justify-content-md-center">
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/gabrie-headshot.png"
-                    alt="gabrie-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Gabriella Wong Ken</li>
-                    <li class="pronouns">She/Her</li>
-                    <li>
-                      <p class="card-text">
-                        Community to me is about building connections,
-                        supporting those around you, and caring for one another
-                        so that we can all thrive.
-                      </p>
-                    </li>
-                  </ul>
-                  <div class="team-text"></div>
-                </div>
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/tasha-headshot.png"
-                    alt="tasha-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Natasha Wong Ken</li>
-                    <li class="pronouns">She/Her</li>
-                    <li>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/steph-headshot.png"
-                    alt="steph-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Stephanie Wong Ken</li>
-                    <li class="pronouns">She/Her</li>
-                    <li>
-                      <p class="card-text">
-                        When I think of community, I think of being part of a
-                        collective and creating mutually beneficial ways of
-                        sharing the same space.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="w-100"></div>
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/natalie-headshot.png"
-                    alt="natalie-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Natalie Yeung</li>
-                    <li class="pronouns">She/Her</li>
-                    <li>
-                      <p class="card-text">
-                        Community to me means mutually beneficial spaces where
-                        individuals have open and respectful conversations that
-                        facilitate learning, growth, and support for one
-                        another.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/amanda-headshot.png"
-                    alt="amanda-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Amanda Gomez</li>
-                    <li class="pronouns">She/They</li>
-                    <li>
-                      <p class="card-text">
-                        Community to me is a necessity, love, what binds me to
-                        this world.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col col-lg-3">
-                  <img
-                    src="src/images/jasmine-headshot.png"
-                    alt="jasmine-headshot"
-                    class="circle headshots"
-                  />
-                  <ul>
-                    <li class="team-member-name">Jasmine Wong</li>
-                    <li class="pronouns">She/Her</li>
-                    <li>
-                      <p class="card-text">
-                        Community to me means sharing, understanding,
-                        advocating, and empowering our neighbours near and far.
-                        It is only the energy of a community that sparks the
-                        power for change.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/tasha-headshot.png"
+                  alt="tasha-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Natasha Wong Ken</li>
+                  <li class="pronouns">She/Her</li>
+                  <li>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </li>
+                </ul>
               </div>
-              <img
-                src="src/images/team-jumping-photo.jpg"
-                alt="team-jumping-photo"
-                class="team-photo"
-                width="400px"
-              />
-            </section>
-          </div>
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/steph-headshot.png"
+                  alt="steph-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Stephanie Wong Ken</li>
+                  <li class="pronouns">She/Her</li>
+                  <li>
+                    <p class="card-text">
+                      When I think of community, I think of being part of a
+                      collective and creating mutually beneficial ways of
+                      sharing the same space.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-100"></div>
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/natalie-headshot.png"
+                  alt="natalie-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Natalie Yeung</li>
+                  <li class="pronouns">She/Her</li>
+                  <li>
+                    <p class="card-text">
+                      Community to me means mutually beneficial spaces where
+                      individuals have open and respectful conversations that
+                      facilitate learning, growth, and support for one another.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/amanda-headshot.png"
+                  alt="amanda-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Amanda Gomez</li>
+                  <li class="pronouns">She/They</li>
+                  <li>
+                    <p class="card-text">
+                      Community to me is a necessity, love, what binds me to
+                      this world.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-lg-3">
+                <img
+                  src="src/images/jasmine-headshot.png"
+                  alt="jasmine-headshot"
+                  class="circle headshots"
+                />
+                <ul>
+                  <li class="team-member-name">Jasmine Wong</li>
+                  <li class="pronouns">She/Her</li>
+                  <li>
+                    <p class="card-text">
+                      Community to me means sharing, understanding, advocating,
+                      and empowering our neighbours near and far. It is only the
+                      energy of a community that sparks the power for change.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <img
+              src="src/images/team-jumping-photo.jpg"
+              alt="team-jumping-photo"
+              class="team-photo"
+              width="400px"
+            />
+          </section>
         </div>
-      </main>
-      <section class="footer-section"></section>
+      </div>
+      <section class="footer-section">
+        <img
+          src="src/images/The Hatch Finals_White Fill w text.png"
+          width="300px"
+          alt="the-hatch-logo"
+          class="logo"
+        />
+        <div class="contact-email">thehatchyyc@gmail.com</div>
+
+        <div class="follow">Follow us</div>
+        <i class="fa-brands fa-instagram"></i>
+      </section>
     </div>
   </body>
 </html>
