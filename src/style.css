@@ -41,9 +41,9 @@ header {
 .dropdown-item {
   font-size: 20px;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-right: 50px;
-  margin: 0px;
+  margin-left: 0px;
 }
 
 .dropdown-item:hover {
